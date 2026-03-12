@@ -1,0 +1,8 @@
+services:
+  backend:
+    # ชื่อ image ต้องตรงกับที่ตั้งไว้ในไฟล์ deploy.yml ตรงขั้นตอน Build and push
+    image: ${DOCKER_HUB_USERNAME}/234-deploylab-backend:latest
+    container_name: backend-container
+    ports:
+      - "8082:8080"
+    restart: always
