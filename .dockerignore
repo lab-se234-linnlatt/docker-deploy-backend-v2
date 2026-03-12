@@ -1,5 +1,5 @@
 node_modules
 target/
-*.jar
-.git
-.env
+.idea/
+*.iml
+.git/
