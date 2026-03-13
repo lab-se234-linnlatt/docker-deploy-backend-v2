@@ -6,6 +6,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class GradeServiceImpl implements GradeService {
     @Override
+// Analysis update for Lab 5: Integrating with DeepSource.io
+// Testing OWASP Top 10 security reporting. 2
     public String getGrade(double score) {
         if (score > 79.5) {
             return "A";
